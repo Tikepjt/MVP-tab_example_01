@@ -12,13 +12,15 @@ import com.example.summit.test.R;
 import com.example.summit.test.databinding.FragmentRequestBinding;
 
 public class RequestFragment extends Fragment {
+
     FragmentRequestBinding mBinding;
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle saveInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_request, container, true);
 
         return mBinding.getRoot();
     }
 }
+

@@ -12,14 +12,14 @@ import com.example.summit.test.R;
 import com.example.summit.test.databinding.FragmentFriendsBinding;
 
 public class FriendsFragment extends Fragment {
+
     FragmentFriendsBinding mBinding;
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle saveInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_friends, container, true);
 
         return mBinding.getRoot();
     }
 }
-
