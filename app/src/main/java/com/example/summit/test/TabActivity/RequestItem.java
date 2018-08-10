@@ -1,4 +1,4 @@
 package com.example.summit.test.TabActivity;
 
-public class TabContract {
+public class RequestItem {
 }
