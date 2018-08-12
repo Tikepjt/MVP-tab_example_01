@@ -1,13 +1,17 @@
 package com.example.summit.test.TabActivity;
 
-public class TabContractor {
-
-    interface View{
-
-    }
-
-    interface Presenter{
-
-    }
-
-}
+//import android.hardware.SensorEvent;
+//
+//public class TabContractor {
+//
+//    interface View{
+//
+//        void addRequestItem(RequestItem item);
+//    }
+//
+//    interface Presenter{
+//
+//        void onSensorChanged(SensorEvent event);
+//    }
+//
+//}
